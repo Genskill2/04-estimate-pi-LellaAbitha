@@ -38,13 +38,16 @@ int main(void) {
     }
   }
 }
-float mc_pi(int a){
+float mc_pi(int a)
+{
     float count=0;
-    for(int i=0;i<a;i++){
+    for(int i=0;i<a;i++)
+    {
         float x=frandom();
         float y=frandom();
         float d=sqrt(pow(x,2)+pow(y,2));
-        if(d<1){
+        if(d<1)
+        {
             count++;
         }
     }
